@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First webpage</title>  <!-- my tab Title -->
+	<link rel = "stylesheet" href = "styles.css" >
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+	<div class="intro"> 
+		<img class="profile-picture" src= "  file:///Users/gina/Desktop/Porfolio/images/profile-picture.jpg"/> 
+		<h1> Gina Aorahim </h1>
+		<h3> Software Engineer </h3>
+		<p class="quote"> {{Pause and Ponder}} </p>
+	</div>
+
+	<hr/>
+
+	<div class="about-grid">
+		<div class="i-am">
+			<h3> I am </h3> <!-- my bullet header -->
+			<ul class="about-list">
+				<li> An Engineer </li>
+				<li> A reader </li>
+				<li> A Hobby Cook </li>
+			</ul>
+		</div>
+		<div class="i-like">
+			<h3> I like to </h3>
+			<ul class="about-list">
+				<li> Meet new people </li>
+				<li> Play guitar </li>
+				<li> Eat Ice cream </li>
+			</ul>
+		</div>
+	</div >
+<hr/>
+
+<div>
+    <h3 class="projects-heading">My Projects</h3>
+    <div class="projects-grid">
+        <img class="project-image" src=" images/project-1.jpg"/>
+        <img class="project-image" src=" images/project-2.jpg"/>
+        <img class="project-image" src=" images/project-3.jpg"/>
+        <img class="project-image" src=" images/project-4.jpg"/>
+        <div class="project-image-wrapper">
+        
+        	<img class="project-image" src="images/project-1.jpg">
+        </div>
+        <div class="project-image-wrapper">
+        	
+        	<img class="project-image" src="images/project-2.jpg">
+        </div>
+        <div class="project-image-wrapper">
+        	
+        	<img class= "project-image" src="images/project-3.jpg">
+        </div>
+        <div class="project-image-wrapper">
+        	
+        	<img class="project-image" src="images/project-4.jpg">
+        </div>
+    </div>
+</div>
+<hr/>
+
+	<!-- below is the footer code for my profile links -->
+	<div class="links-and-contact">
+		<div class="links">
+		<h3> Links </h3>
+		<ul class="links-list">
+			<li>
+				<a href="https://github.com/GinaAorahim"> Github </a>
+			</li>
+			<li>
+				<a href="https://twitter.com/ginaaorahim1">Twitter </a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/gina-aorahim-639a57132/"> Linkedin </a>
+			</li>
+		</ul>
+	</div>
+	<div>
+		<form action="#">  <!-- my action for to send me an email -->
+			<label for="email">
+				<h4> Email</h4>
+			<input type= "email" id = "email" placeholder = "Enter Your Email" />
+		</label>
+		<label for = "message">
+			<h4> Message</h4>
+			<textarea id="message" placeholder="your message"></textarea>
+		</label>
+			<div class="submit-button-wrapper">
+				<input type="submit" value="Send message" id="submit-button"/>
+		</div>
+	</form>
+	</div>
+
+	<div class=”grid-table”>  <!-- the list grid,  i had to c/p -->
+	    <div>1</div>
+	    <div>2</div>
+	    <div>3</div>
+	    <div>4</div>
+	    <div>5</div>
+	    <div>6</div>
+	</div>
+	
+
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+<meta name ="viewport" content = "width=device-width, initial-scale=1">
+</html>
