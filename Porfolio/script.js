@@ -1,5 +1,5 @@
 // this will add two numbers and give you the sum when you reld page
-
+/*
  alert(  "hello world");
  let num1 = 2; 
  let num2 = 3;
@@ -30,7 +30,7 @@ let personDetails = {
 	}
 }
 personDetails.alertMessage(' hello World');
-
+*/
 function emailValidate(email) {
 	if (email.includes('@')) {
 		return true;
