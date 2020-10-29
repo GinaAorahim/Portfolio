@@ -1,0 +1,16 @@
+{
+  "name": "memechat",
+  "version": "1.0.0",
+  "description": "memechat",
+  "main": "exit",
+  "dependencies": {
+    "nodemailer": "^6.4.14",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

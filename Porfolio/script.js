@@ -31,6 +31,7 @@ let personDetails = {
 }
 personDetails.alertMessage(' hello World');
 */
+
 function emailValidate(email) {
 	if (email.includes('@')) {
 		return true;
