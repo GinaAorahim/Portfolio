@@ -4,7 +4,7 @@
   "description": "memechat",
   "main": "exit",
   "dependencies": {
-    "nodemailer": "^6.4.14",
+    "nodemailer": "^6.4.16",
     "xoauth2": "^1.2.0"
   },
   "devDependencies": {},
